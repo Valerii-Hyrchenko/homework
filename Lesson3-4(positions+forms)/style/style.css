@@ -1,0 +1,172 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.header-li {
+    display: inline-block;
+    margin-right: 47px;
+    }
+.header-li > a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #000000;
+}
+.header-ul {
+    text-align: center;
+}
+.header {
+    padding: 53px 0 52px 0;
+}
+.block-1 {
+    background-image:url(../background/BG1.png);
+    padding: 138px 0 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.block-1-h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 14px;
+}
+.button1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    border-radius: 5px;
+    padding: 10px 122px 11px;
+    border: transparent;
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.block-2 {
+    background-color: #5D98AB;
+}
+.block-2-p {
+    padding: 133px 274px 134px 300px;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.text1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    max-width: 696px;
+    margin: 221px auto 0;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin: 216px auto 0;
+    max-width: 696px;
+}
+.text_objects1 {
+    position: relative;
+}
+.object1 {
+    height: 121px;
+    width: 178px;
+    background-color: #BFDEFB;
+    position: absolute;
+    left: -70px;
+    top: -121px;
+}
+.object2 {
+    height: 121px;
+    width: 178px;
+    background-color: #BFDEFB;
+    position: absolute;
+    left: -70px;
+    top: 125px;
+}
+.object3 {
+    height: 121px;
+    width: 178px;
+    background-color: #BFDEFB;
+    position: absolute;
+    right: -70px;
+    top: 25px;
+}
+.text_objects2 {
+    position: relative;
+}
+.object4 {
+    height: 58px;
+    width: 58px;
+    background-color: #5C98AB;
+    position: absolute;
+    border-radius: 50%;
+    top: -56px;
+    left: 260px;
+}
+.object5{
+    height: 120px;
+    width: 120px;
+    background-color: #BFDEFB;
+    position: absolute;
+    border-radius: 50%;
+    right: 162px;
+    bottom: -70px;
+}
+.container-form {
+    max-width: 647px;
+    margin: 123px auto;
+}
+.input-holder, .input {
+    width: 100%;
+}
+.input-holder {
+    margin-bottom: 41px;
+    position: relative;
+}
+.input {
+    padding: 36px 0 11px 34px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 36px;
+    box-sizing: border-box;
+}
+.input::placeholder {
+    color: #000000;
+    font-weight: 400;
+    font-size: 36px;
+}
+.label {
+    position: absolute;
+    top: 14px;
+    left: 31px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+.button2 {
+    width: 100%;
+    height: 92px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    background-color: #5C98AB;
+    border: transparent;
+}
