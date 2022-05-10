@@ -1,0 +1,149 @@
+.text-square {
+    font-size: 18px;
+    font-weight: bold;
+}
+.fake-square {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+}
+.fake-square::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color:darkorchid;
+    border-radius: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.input-square {
+    opacity: 0;
+}
+.input-square:checked ~ .fake-square::before {
+    opacity: 1;
+    transition: 600ms linear;
+}
+.text-tick {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(11, 25, 235);
+}
+.fake-tick {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(11, 25, 235);
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+}
+.fake-tick::before {
+    content: '';
+    width: 12px;
+    height: 2px;
+    position: absolute;
+    background-color: limegreen;
+    top: 50%;
+    left: 3%;
+    transform: rotate(60deg);
+    border-radius: 1px;
+    opacity: 0;
+}
+.fake-tick::after {
+    content: '';
+    width: 12px;
+    height: 2px;
+    position: absolute;
+    background-color: limegreen;
+    top: 50%;
+    left: 32%;
+    transform: rotate(-60deg);
+    border-radius: 1px;
+    opacity: 0;
+}
+.input-tick {
+    opacity: 0;
+}
+.input-tick:checked ~ .fake-tick::before, .input-tick:checked ~ .fake-tick::after {
+    opacity: 1;
+    transition: 600ms linear;
+}
+.text-radio {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(3, 141, 72);
+}
+.fake-radio {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+}
+.input-radio {
+    opacity: 0;
+}
+.fake-radio::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color:rgb(3, 141, 72);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.input-radio:checked ~ .fake-radio::before {
+    opacity: 1;
+    transition: 600ms linear;
+}
+.text-tick2 {
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(118, 1, 201);
+}
+.fake-tick2 {
+    display: inline-block;
+    height: 26px;
+    width: 49px;
+    background-color: lightgrey;
+    border: 1px solid transparent;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.4);
+    border-radius: 13px;
+    box-sizing: border-box;
+    position: relative;
+}
+.fake-tick2::before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    background-color: whitesmoke;
+    top: 2px;
+    left: 2px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.4);
+    border-radius: 10px;
+    transition: 300ms linear;
+}
+.input-tick2 {
+    opacity: 0;
+}
+.input-tick2:checked ~ .fake-tick2::before {
+    left: 23px;
+    transition: 300ms linear;
+}
+.input-tick2:checked ~ .fake-tick2 {
+    background-color: yellow;
+    transition: 300ms linear;
+}
