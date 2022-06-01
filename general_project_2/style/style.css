@@ -1734,6 +1734,9 @@ body {
         font-size: 14px;
         padding: 10px 83px;
     }
+    .revolutionary-img-container {
+        top: 840px;
+    }
     .revolutionary-img {
         width: 370px;
     }
@@ -1742,6 +1745,9 @@ body {
     }
     .spaces__content {
         margin-bottom: 42px;
+    }
+    .spaces__carousel-text-private1 {
+        padding-top: 100px;
     }
     .slick-arrow {
         top: -38px;
